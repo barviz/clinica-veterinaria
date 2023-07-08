@@ -1,13 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Veterinaria generada en HTML CSS y JS" name="description"/>
-    <meta content="Bárbara Vizgarra" name="author"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.3/slate/bootstrap.min.css" integrity="sha512-GixPbJydZH3yyD23SgcC/i/FIhLb+0F26ABBvEg9ejj90hYuXXjPphWTWTX5dIuolObna6iXz1nr5nog6Dex7w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta content="Veterinaria generada en HTML CSS y JS" name="description" />
+    <meta content="Bárbara Vizgarra" name="author" />
     <title>Clinica Veterinaria BarVet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
 </head>
+
 <body>
+    <header id="home">
+
+        <nav id="header__navegacion">
+
+            <div class="contenedor">
+
+                <a href="#home">
+                    <h1 class="header__logo">Clínica Veterinaria BarVet</h1>
+                </a>
+
+                <ul class="header__enlaces">
+                    <li><a href="#institucional" class="header__enlace">Institucional</a></li>
+                    <li><a href="#especialidades" class="header__enlace">Especialidades</a></li>
+                    <li><a href="servicios.html" target="_blank" class="header__enlace">Servicios</a></li>
+                    <li><a href="noticias.html" target="_blank" class="header__enlace">Noticias</a></li>
+                    <li><a href="quienes-somos.html" target="_blank" class="header__enlace">Quienes Somos</a></li>
+                    <li><a href="turnos.html" target="_blank" class="header__enlace">Turnos</a></li>
+                    <li><a href="contacto.html" target="_blank" class="header__enlace">Contacto</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <div id="header__info">
+
+            <div class="titular">
+                <h1>Clínica Veterinaria BarVet</h1>
+                <h2>Brindando atención veterinaria de calidad y compasión</h2>
+            </div>
+
+            <div class="speaker"></div>
+
+            <audio id="player">
+                <source src="./audio/audio-aves.mp3" type="audio/mp3" />
+            </audio>
+
+        </div>
+
+    </header>
+
+    <section id="institucional">
+
+        <h3>Institucional</h3>
+
+        <div class="contenedor-institucional">
+
+            <div class="contenedor-institucional-parrafo">
+                <p> <strong> Bienvenido a la Clínica Veterinaria BarVet</strong>.</p>
+
+                <p>Un centro con amplia experiencia, encargado de ofrecer la mejor atención para su mascota.</p>
+                <p>Hacemos foco en la salud y la prevención.</p>
+                <p>Impulsamos buenos hábitos tanto para la salud y el bienestar de las mascotas como para que la familia
+                    pueda disfrutar el vínculo con sus animales.</p>
+                <p>Estamos ubicados en la localidad de Ezeiza.</p>
+                <p>Nos especializamos en pequeñas, medianas y grandes razas.</p>
+            </div>
+
+            <img class="imagen-institucional" src="./img/institucional.jpg" alt="Institucional" title="institucional">
+
+
+        </div>
+
+    </section>
+
+    <section id="especialidades">
+
+        <h3>Especialidades</h3>
+
+        <div class="contenedor-especialidades">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./img/especialidades/cirugia-general.png" class="card-img-top" alt="imagen cirugía general">
+                        <div class="card-body">
+                            <h2 class="card-title">CIRUGÍA GENERAL</h2>
+                            <p class="card-text">Experiencia profesional y quirófano totalmente equipado con tecnología
+                                moderna para garantizar la seguridad de su mascota y la máxima calidad en el servicio.
+                                Ofrecemos:</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" style="width: 37.1rem;">Cirugía abdominal y perineal ocular</li>
+                            <li class="list-group-item" style="width: 37.1rem;">Cirugía de cabeza, cuello y tórax</li>
+                            <li class="list-group-item" style="width: 37.1rem;">Cirugía ortopédica, etc.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./img/especialidades/oftalmologia.png" class="card-img-top" alt="imagen oftalmología">
+                        <div class="card-body">
+                            <h2 class="card-title">OFTALMOLOGÍA</h2>
+                            <p class="card-text">Somos especialistas en servicios de Oftamología para las mascotas:</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" style="width: 37.1rem;">Diagnóstico, tratamiento y prevención de
+                                las enfermedades oculares</li>
+                            <li class="list-group-item" style="width: 37.1rem;">Medición de la Presión Intraocular</li>
+                            <li class="list-group-item" style="width: 37.1rem;">Oftalmoscopia Directa</li>
+                            <li class="list-group-item" style="width: 37.1rem;">Oftalmoscopia Indirecta</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./img/especialidades/dermatologia.png" class="card-img-top" alt="imagen dermatología">
+                        <div class="card-body">
+                            <h2 class="card-title">DERMATOLOGÍA</h2>
+                            <p class="card-text">Somos especialistas en servicios de Dermatología para las mascotas:</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" style="width: 37.1rem;">Citología cutánea: Raspados, cultivo de
+                                hongos por DTM, cultivo bacteriano y antibiogramas, citología transcutánea por
+                                aspiración con aguja, biopsias</li>
+                            <li class="list-group-item" style="width: 37.1rem;">Diagnóstico, tratamiento y prevención
+                            </li>
+                            <li class="list-group-item" style="width: 37.1rem;">Alergología y Parasitología</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./img/especialidades/medicina-general.png" class="card-img-top" alt="imagen medicina general">
+                        <div class="card-body">
+                            <h2 class="card-title">CONSULTAS MÉDICAS</h2>
+                            <p class="card-text">Chequeos generales y tratamientos especializados para todas las
+                                mascotas, perros, gatos, conejos, pequeños roedores, hurones y exóticos.</p>
+                            <p class="card-text">Atención a urgencias veterinarias fuera del horario de oficina, con
+                                visitas a domicilio. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./img/especialidades/nutricion.png" class="card-img-top" alt="imagen nutrición">
+                        <div class="card-body">
+                            <h2 class="card-title">NUTRICIÓN</h2>
+                            <p class="card-text">Una buena alimentación es igual a buena salud. Nuestros especialistas
+                                te explicarán qué dieta nutricional es mejor para cada edad: cachorro, adulto, animales
+                                con sobrepeso..., así como para diversas patologías relacionadas con una inadecuada
+                                dieta (alergias a alimentos, diabetes mellitus, patologías renales y hepáticas, etc.).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./img/especialidades/esterilizacion.png" class="card-img-top" alt="imagen esterilización">
+                        <div class="card-body">
+                            <h2 class="card-title">CAMPAÑAS DE SENSIBILIZACIÓN</h2>
+                            <p class="card-text">Existen numerosas pautas de vacunación, las cuales hay que adaptar a
+                                cada mascota.</p>
+                            <p>No todos los animales se tienen que vacunar de lo mismo, sino que hay que adecuar dicha
+                                pauta a su estilo de vida, zona geográfica, etc.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" style="width: 37.1rem;">Perros: Leishmaniosis, rabia, moquillo,
+                                parvovirosis, hepatitis, etc.</li>
+                            <li class="list-group-item" style="width: 37.1rem;">Gatos: Leucemia, panleucopenia,
+                                rinotraqueitis, calicivirosis, etc.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="instalaciones">
+
+        <h3>Instalaciones</h3>
+
+        <div class="contenedor-instalaciones">
+            <p class="instalaciones-parrafo">Las instalaciones de nuestra Clínica Veterinaria están especialmente
+                diseñadas para ofrecer un entorno acogedor y amistoso para las mascotas. Además, están adaptadas a una
+                metodología de trabajo y protocolos de manejo de bajo estrés, a fin de proporcionar una experiencia
+                positiva para pacientes y propietarios.</p>
+            <div class="instalaciones-background">
+                <div class="card-group ">
+                    <div class="card">
+                        <img src="./img/instalaciones/img1.jpg" class="card-img-top" alt="imagen sala de rayos">
+                    </div>
+                    <div class="card">
+                        <img src="./img/instalaciones/img2.jpg" class="card-img-top" alt="imagen sala de espera para perros">
+                    </div>
+                    <div class="card">
+                        <img src="./img/instalaciones/img3.jpg" class="card-img-top" alt="imagen sala de espera para gatos">
+                    </div>
+                </div>
+                <div class="card-group">
+                    <div class="card">
+                        <img src="./img/instalaciones/img4.jpg" class="card-img-top" alt="imagen quirófano">
+                    </div>
+                    <div class="card">
+                        <img src="./img/instalaciones/img5.jpg" class="card-img-top" alt="imagen sala de hospitalización">
+                    </div>
+                    <div class="card">
+                        <img src="./img/instalaciones/img6.jpg" class="card-img-top" alt="imagen laboratorio">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="ubicacion">
+        <h3>Ubicación</h3>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.1940073023457!2d-58.447149024589656!3d-34.54864295459108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb4371fa6c617%3A0x2ebc958d35946628!2sLeopoldo%20Basavilbaso%20701%2C%20C1428CGC%20CABA!5e0!3m2!1ses-419!2sar!4v1688850589483!5m2!1ses-419!2sar"
+            width="100%" height="350px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <footer>
+        <div class="autor">
+            <p>©2023 Bárbara Vizgarra | (Trabajo Práctico Desarrollo Web)</p>
+        </div>
+    </footer>
+
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=5491159776415&amp;text=&amp;source=&amp;data=" target="_blank">
+            <img src="./img/whatsapp.png" alt="WhatsApp">
+        </a>
+    </div>
+
+    <script src="./js/audio.js"></script>
 </body>
+
 </html>
