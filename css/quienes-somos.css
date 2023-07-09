@@ -1,6 +1,6 @@
 
-#home-servicios {
-    background-image: url('./../img/servicios/patita.jpg');
+#home-nosotros {
+    background-image: url('./../img/quienes-somos/nosotros.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -8,9 +8,8 @@
 
 /* -------------------servicios------------------- */
 
-#servicio {
+#nosotros {
     padding-top: 5px;
-    height: 100vh;
 }
 
 h3 {
@@ -26,7 +25,7 @@ h5 {
     margin-top: 90px;
 }
 
-.servicio_contenedor {
+.nosotros_contenedor {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -36,11 +35,17 @@ h5 {
 }
 
 .columna {
-    width: calc(25% - 10px);
+    width: 70%;
+    margin: auto;
     background-color: #e4dbee;
     padding: 20px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .rounded-list {
@@ -62,4 +67,5 @@ h5 {
 .columna p {
     text-align: left;
     font-size: 16px;
+    margin-bottom: 10px;
 }
