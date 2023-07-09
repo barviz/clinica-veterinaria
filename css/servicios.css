@@ -1,0 +1,217 @@
+html {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.titular {
+    text-align: center;
+    margin-top: 280px;
+}
+
+h1 {
+    font-size: 55px;
+    margin: 0;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.titulo-color {
+    color: white;
+}
+
+.texto_personalizado {
+    font-style: italic;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 95%;
+    margin: auto;
+}
+
+#home-servicios {
+    background-image: url('./../img/servicios/patita.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#header__navegacion {
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    font-size: 25px;
+}
+
+#header__navegacion a {
+    color: rgba(0, 0, 0, 0.637);
+    font-family: 'Secular One', sans-serif;
+}
+
+#header__navegacion .header__logo {
+    float: left;
+    padding-top: 16px;
+    font-size: 25px;
+}
+
+#header__navegacion .header__enlace {
+    font-size: 15px;
+}
+
+#header__navegacion ul {
+    list-style: none;
+    float: right;
+}
+
+#header__navegacion ul li {
+    float: left;
+}
+
+#header__navegacion ul li a {
+    display: block;
+    padding: 20px 3px;
+    text-align: center;
+}
+
+#header__navegacion ul li a:hover {
+    color: #6e188088;
+}
+
+#header__info {
+    padding: 10px 0;
+}
+
+#servicio {
+    padding-top: 5px;
+    height: 100vh;
+}
+
+h3 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+h5 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 90px;
+}
+
+.servicio_contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en varias líneas si no caben en una sola fila */
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    /* Distribuye los elementos equitativamente a lo largo del contenedor */
+}
+
+.columna {
+    width: calc(25% - 10px);
+    background-color: #e4dbee;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.rounded-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.rounded-list li:before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #b776db;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.columna p {
+    text-align: left;
+    font-size: 16px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #636060;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer_contenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer_contenido h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer_contenido p {
+    max-width: 500px;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.footer_autor {
+    background: #3b3a3a;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer_autor p {
+    float: left;
+    font-size: 14px;
+    color: #ccc;
+    word-spacing: 2px;
+}
