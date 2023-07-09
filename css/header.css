@@ -1,0 +1,103 @@
+html {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.titular {
+    text-align: center;
+    margin-top: 280px;
+}
+
+h1 {
+    font-size: 55px;
+    margin: 0;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.titulo-color {
+    color: white;
+}
+
+.texto_personalizado {
+    font-style: italic;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 95%;
+    margin: auto;
+}
+
+
+
+#header__navegacion {
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    font-size: 25px;
+}
+
+#header__navegacion a {
+    color: rgba(0, 0, 0, 0.637);
+    font-family: 'Secular One', sans-serif;
+}
+
+#header__navegacion .header__logo {
+    float: left;
+    padding-top: 16px;
+    font-size: 25px;
+}
+
+#header__navegacion .header__enlace {
+    font-size: 15px;
+}
+
+#header__navegacion ul {
+    list-style: none;
+    float: right;
+}
+
+#header__navegacion ul li {
+    float: left;
+}
+
+#header__navegacion ul li a {
+    display: block;
+    padding: 20px 3px;
+    text-align: center;
+}
+
+#header__navegacion ul li a:hover {
+    color: #6e188088;
+}
+
+#header__info {
+    padding: 10px 0;
+}

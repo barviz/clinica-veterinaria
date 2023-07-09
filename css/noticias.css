@@ -1,0 +1,29 @@
+#home-noticias {
+    background-image: url('./../img/noticias/noticias.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/* -------------------noticias------------------- */
+
+#noticias {
+    padding-top: 5px;
+}
+
+#noticias h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.contenedor-noticias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #d1b1ee;
+}

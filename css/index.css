@@ -201,16 +201,3 @@ h3 {
 #ubicacion h3 {
     margin-bottom: 30px;
 }
-
-/* -------------------footer & whatsapp------------------- */
-
-.autor {
-    padding: 20px;
-    text-align: center;
-}
-
-.whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
-}
