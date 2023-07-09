@@ -1,0 +1,65 @@
+#home-contacto {
+    background-image: url('./../img/contacto/contacto.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/* -------------------contacto------------------- */
+
+#contacto {
+    padding-top: 5px;
+}
+
+#contacto h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form_contenedor {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input[type="radio"],
+.form-group label {
+  display: inline;
+  margin-right: 10px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+.checkbox-group label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #c29be6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_width {
+    width: 100%;
+}

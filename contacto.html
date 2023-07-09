@@ -1,13 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Veterinaria generada en HTML CSS y JS" name="description"/>
-    <meta content="Bárbara Vizgarra" name="author"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.3/slate/bootstrap.min.css" integrity="sha512-GixPbJydZH3yyD23SgcC/i/FIhLb+0F26ABBvEg9ejj90hYuXXjPphWTWTX5dIuolObna6iXz1nr5nog6Dex7w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta content="Veterinaria generada en HTML CSS y JS" name="description" />
+    <meta content="Bárbara Vizgarra" name="author" />
     <title>Contacto - Clinica Veterinaria BarVet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/contacto.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
 </head>
+
 <body>
+
+    <header id="home-contacto">
+
+        <nav id="header__navegacion">
+
+            <div class="contenedor">
+
+                <a href="./index.html">
+                    <h1 class="header__logo">Clínica Veterinaria BarVet</h1>
+                </a>
+
+                <ul class="header__enlaces">
+                    <li><a href="./index.html#institucional" class="header__enlace">Institucional</a></li>
+                    <li><a href="./index.html#especialidades" class="header__enlace">Especialidades</a></li>
+                    <li><a href="servicios.html" class="header__enlace">Servicios</a></li>
+                    <li><a href="noticias.html" target="_blank" class="header__enlace">Noticias</a></li>
+                    <li><a href="quienes-somos.html" target="_blank" class="header__enlace">Quienes Somos</a></li>
+                    <li><a href="turnos.html" target="_blank" class="header__enlace">Turnos</a></li>
+                    <li><a href="contacto.html" target="_blank" class="header__enlace">Contacto</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <div id="header__info">
+
+            <div class="titular">
+                <h1> Contacto <span class="titulo-color">BarVet</span></h1>
+                <h2>Nos encanta ayudarte</h2>
+                <h2>Llámanos ahora o envía un mensaje utilizando el formulario que aparece a continuación
+                    <h2>y nos pondremos en contacto lo antes posible</h2>
+            </div>
+
+        </div>
+
+    </header>
+    <section id="contacto">
+        <h3>Contacto</h3>
+        <div class="form_contenedor">
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" minlength="2" maxlength="20" title="Nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" minlength="2" maxlength="20" title="Apellido"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="especies">Seleccionar especie/s:</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="perro" name="especies" value="Perro">
+                        <label for="perro">Perro</label>
+                        <input type="checkbox" id="gato" name="especies" value="Gato">
+                        <label for="gato">Gato</label>
+                        <input type="checkbox" id="conejo" name="especies" value="Conejo">
+                        <label for="conejo">Conejo</label>
+                        <input type="checkbox" id="ave" name="especies" value="Ave">
+                        <label for="ave">Ave</label>
+                        <input type="checkbox" id="tortuga" name="especies" value="Tortuga">
+                        <label for="tortuga">Tortuga</label>
+                        <input type="checkbox" id="roedor" name="especies" value="Roedor">
+                        <label for="roedor">Roedor</label>
+                        <input type="checkbox" id="otro" name="especies" value="Otro">
+                        <label for="otro">Otro</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="dia">Día:</label>
+                    <input type="radio" id="lunes" name="dia" value="Lunes" required>
+                    <label for="lunes">Lunes</label>
+                    <input type="radio" id="martes" name="dia" value="Martes">
+                    <label for="martes">Martes</label>
+                    <input type="radio" id="miercoles" name="dia" value="Miercoles">
+                    <label for="miercoles">Miércoles</label>
+                    <input type="radio" id="jueves" name="dia" value="Jueves">
+                    <label for="jueves">Jueves</label>
+                    <input type="radio" id="viernes" name="dia" value="Viernes">
+                    <label for="viernes">Viernes</label>
+                    <input type="radio" id="sabado" name="dia" value="Sabado">
+                    <label for="sabado">Sábado</label>
+                    <input type="radio" id="domingo" name="dia" value="Domingo">
+                    <label for="domingo">Domingo</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="turno">Turno:</label>
+                    <input type="radio" id="manana" name="turno" value="Mañana" required>
+                    <label for="manana">Mañana</label>
+                    <input type="radio" id="tarde" name="turno" value="Tarde">
+                    <label for="tarde">Tarde</label>
+                    <input type="radio" id="noche" name="turno" value="Noche">
+                    <label for="noche">Noche</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" cols="50" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="btn_width">Enviar</button>
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="footer_contenido">
+            <h3>Clinica Veterinaria BarVet</h3>
+            <p>xxxxxxx xxx - (xxxx) Nuñez, Bs. As. | (xxx) xxxx-xxxx | clinicavetbarvet@gmail.com Atención de Lunes a
+                Domingo, 24 horas</p>
+        </div>
+
+        <div class="footer_autor">
+            <p>Copyright &copy 2023 Bárbara Vizgarra (Trabajo Práctico Desarrollo Web)</p>
+        </div>
+
+    </footer>
+
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=5491159776415&amp;text=&amp;source=&amp;data=" target="_blank">
+            <img src="./img/whatsapp.png" alt="WhatsApp">
+        </a>
+    </div>
+
+
 </body>
+
 </html>
